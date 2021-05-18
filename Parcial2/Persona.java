@@ -9,7 +9,9 @@ package Parcial2;
  *
  * @author Miguel
  */
-public class Persona {
+public abstract class Persona {
+    
+    //persona es abstracta ya que esta nunca se instancia
     protected String nombre;
     protected String apellido;
     protected int edad;
